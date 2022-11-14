@@ -31,7 +31,7 @@ public class SwingSlider extends JFrame implements ChangeListener {
         sVert.setPaintLabels(true);
         sVert.setInverted(true);
         sHoriz.addChangeListener(this);
-        sVert.addChangeListener(this);
+        sVert  .addChangeListener(this);
         getContentPane().add(sHoriz, "South");
         getContentPane().add(pCenter, "Center");
         getContentPane().add(sVert, "East");
